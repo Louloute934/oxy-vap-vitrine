@@ -14,8 +14,8 @@ const Shops = () => {
     window.scrollTo(0, 0);
   }, []);
   const [hover1, setHover1] = useState(false);
-  const [hover2, setHover2] = useState(true);
-  const [hover3, setHover3] = useState(true);
+  const [hover2, setHover2] = useState(false);
+  const [hover3, setHover3] = useState(false);
 
   const onHover1 = () => {
     setHover1(!hover1);
