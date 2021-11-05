@@ -20,30 +20,10 @@ const Home = () => {
     window.scrollTo(0, 0);
   }, []);
   const history = useHistory();
-  const image = {
-    visible: {
-      opacity: 1,
-      transition: {
-        when: "beforeChildren",
-        staggerChildren: 0.5,
-      },
-    },
-    hidden: {
-      opacity: 0,
-      transition: {
-        when: "afterChildren",
-      },
-    },
-  };
 
   return (
     <div className="homePage">
-      <motion.div
-        variants={image}
-        initial="hidden"
-        animate="visible"
-        className="firstPartHomeWithImage"
-      >
+      <motion.div className="firstPartHomeWithImage">
         <motion.div className="headerLogoDivInImage">
           <h1>OXY VAP</h1>
         </motion.div>

@@ -8,34 +8,10 @@ import { motion } from "framer-motion";
 
 const Header = ({ isTabletOrMobile }) => {
   const history = useHistory();
-  const totalheader = {
-    visible: {
-      opacity: 1,
-      transition: {
-        when: "beforeChildren",
-        staggerChildren: 0.3,
-      },
-    },
-    hidden: {
-      opacity: 0,
-      transition: {
-        when: "afterChildren",
-      },
-    },
-  };
 
-  const childrenHeader = {
-    visible: { opacity: 1 },
-    hidden: { opacity: 0 },
-  };
   return (
     <div className="headerBar">
-      <motion.div
-        initial="hidden"
-        animate="visible"
-        variants={totalheader}
-        className="functionalHeader"
-      >
+      <motion.div className="functionalHeader">
         <motion.div
           onClick={() => {
             history.push("/");
@@ -45,7 +21,7 @@ const Header = ({ isTabletOrMobile }) => {
         >
           <h1>OXY VAP</h1>
         </motion.div>
-        <motion.div variants={childrenHeader} className="headerMenu">
+        <motion.div className="headerMenu">
           <motion.h2
             onClick={() => {
               history.push("/");
