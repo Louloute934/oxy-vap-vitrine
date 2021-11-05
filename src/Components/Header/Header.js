@@ -16,7 +16,6 @@ const Header = ({ isTabletOrMobile }) => {
           onClick={() => {
             history.push("/");
           }}
-          variants={childrenHeader}
           className="headerLogoDiv"
         >
           <h1>OXY VAP</h1>
