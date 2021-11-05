@@ -1,0 +1,13 @@
+.hobyCategorySkill {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.iconAndDescriptionHobby {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}

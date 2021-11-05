@@ -1,0 +1,242 @@
+.teamPage {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10vh;
+}
+.firstPartOfTeamPresentation {
+  width: 100%;
+  font-weight: 700;
+  display: flex;
+  flex-direction: row;
+
+  justify-content: flex-start;
+  margin-top: 1rem;
+  box-sizing: border-box;
+  padding: 2%;
+  margin-bottom: 1rem;
+}
+.firstPartOfTeamPresentation h1 {
+  font-weight: 400;
+  font-size: 3em;
+  padding: 1%;
+  color: black;
+}
+.blockOfTeamPhotos {
+  width: 100vw;
+  height: 150vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  justify-content: space-between;
+  margin-top: 1vw;
+}
+.halfPartOfBlock {
+  width: 49.5%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.bigBlock {
+  width: 100%;
+  height: 64.5%;
+}
+.littleBlock {
+  width: 100%;
+  height: 34.5%;
+}
+.bigBlock img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.littleBlock img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.iconAndDescription {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 0;
+  line-height: 0;
+}
+.iconAndDescription h2 {
+  font-size: 1.4em;
+}
+.oneCategorySkill {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pictureAndTextAboutOneMember {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.textAboutOneMember {
+  font-weight: 300;
+  font-size: 1.2em;
+  line-height: 1.8rem;
+  margin-top: 0;
+}
+
+.iconAboutOneMember {
+  font-size: 1.7em;
+  margin-right: 0.5rem;
+}
+.pictureOfOneMember {
+  width: 30vw;
+  height: 60vh;
+  margin-bottom: 1vw;
+  margin-right: 1vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.textOfOneMember {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  text-align: center;
+}
+.textOfOneMember h1 {
+  font-size: 1.8em;
+}
+.pictureOfOneMember :hover {
+  cursor: pointer;
+}
+.nameOfMember {
+  color: white;
+}
+.photoBlock {
+  margin-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+}
+.realNameOfMember {
+  color: white;
+  margin: 2%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.realNameOfMember h1 {
+  font-weight: 500;
+  font-size: 2.3em;
+  font-family: "Architects Daughter", cursive;
+  background-color: black;
+  opacity: 0.9;
+  padding: 3%;
+}
+@media (max-width: 1400px) {
+  .firstPartOfTeamPresentation h1 {
+    font-size: 2.4em;
+  }
+}
+@media (max-width: 1024px) {
+  .realNameOfMember h1 {
+    font-size: 1.8em;
+  }
+  .pictureOfOneMember {
+    width: 45vw;
+  }
+  .textOfOneMember h1 {
+    font-size: 1.6em;
+  }
+  .iconAboutOneMember {
+    font-size: 1.5em;
+  }
+  .iconAndDescription h2 {
+    font-size: 1.3em;
+  }
+}
+@media (max-width: 850px) {
+  .realNameOfMember h1 {
+    font-size: 1.6em;
+  }
+  .firstPartOfTeamPresentation h1 {
+    font-size: 2em;
+  }
+  .textOfOneMember h1 {
+    font-size: 1.3em;
+  }
+  .iconAboutOneMember {
+    font-size: 1.2em;
+  }
+  .iconAndDescription h2 {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 650px) {
+  .realNameOfMember h1 {
+    font-size: 1.4em;
+  }
+  .firstPartOfTeamPresentation h1 {
+    font-size: 1.6em;
+  }
+  .blockOfTeamPhotos {
+    height: 120vh;
+  }
+  .firstPartOfTeamPresentation h1 {
+    font-size: 2.2em;
+  }
+  .pictureOfOneMember {
+    width: 75vw;
+  }
+  .textOfOneMember h1 {
+    font-size: 1.2em;
+  }
+  .iconAboutOneMember {
+    font-size: 1.1em;
+  }
+  .iconAndDescription h2 {
+    font-size: 0.9em;
+  }
+}
+@media (max-width: 500px) {
+  .realNameOfMember h1 {
+    font-size: 1.2em;
+  }
+  .firstPartOfTeamPresentation h1 {
+    font-size: 1.4em;
+  }
+  .textOfOneMember h1 {
+    font-size: 1em;
+  }
+  .iconAboutOneMember {
+    font-size: 0.9em;
+  }
+  .iconAndDescription h2 {
+    font-size: 0.8em;
+  }
+  .textAboutOneMember {
+    font-size: 0.8em;
+  }
+  .blockOfTeamPhotos {
+    height: 100vh;
+  }
+  .pictureOfOneMember {
+    height: 55vh;
+  }
+}

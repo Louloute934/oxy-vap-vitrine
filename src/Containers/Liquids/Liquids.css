@@ -1,0 +1,651 @@
+.liquidsPage {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  margin-top: 10vh;
+  flex-direction: column;
+  box-sizing: border-box;
+  overflow-y: hidden;
+}
+.bandJuices {
+  width: 100vw;
+  height: 55vh;
+  background-image: url("../../images/juiceFirstPart.png");
+  background-size: cover;
+  background-color: rgb(204, 126, 1);
+  background-blend-mode: hard-light;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.bandJuices h1 {
+  font-family: "Architects Daughter", cursive;
+  color: white;
+  font-size: 3em;
+  margin: 3%;
+  padding: 3%;
+}
+.extraPart {
+  width: 100vw;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.textAboutOurJuices {
+  width: 100vw;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.extraImage {
+  background-image: url("../../images/extraService.png");
+  background-size: cover;
+  width: 50%;
+  height: 40vh;
+}
+.TitleOfOurSelectionOfJuices {
+  background-image: url("../../images/distillers.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 50%;
+  height: 50vh;
+  margin-top: 1rem;
+}
+
+.whyIsItImportant {
+  box-sizing: border-box;
+  width: 50%;
+  height: 40vh;
+  padding-right: 4%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  box-sizing: border-box;
+  padding-bottom: 1rem;
+}
+.whyIsItImportant h1 {
+  color: rgb(211, 161, 42);
+  font-size: 3em;
+  font-weight: 400;
+  margin-left: 1rem;
+}
+.whyIsItBetter {
+  box-sizing: border-box;
+  width: 50%;
+  height: 35vh;
+  padding-right: 4%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.whyIsItBetter h1 {
+  color: rgb(211, 161, 42);
+  font-size: 3em;
+  font-weight: 400;
+  margin-left: 1rem;
+}
+.OneWhy {
+  width: 100%;
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 1px solid black;
+  padding: 2%;
+}
+.OneWhy h2 {
+  font-weight: 400;
+  font-size: 1.6em;
+  margin-bottom: 0.5rem;
+}
+.OneWhyIcon {
+  font-size: 2em;
+  color: rgb(211, 161, 42);
+  margin-right: 1rem;
+}
+.qualityAboutJuices {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ImageAndTextAboutQuality {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.imageAboutQuality {
+  width: 50%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imageAboutQuality img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.textAboutQuality {
+  width: 50%;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.titleAboutQuality {
+  width: 100%;
+}
+.titleAboutQuality h1 {
+  font-weight: 400;
+  font-size: 3em;
+  color: rgb(211, 161, 42);
+  margin-left: 1rem;
+}
+.oneLineAboutSelection {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  box-sizing: border-box;
+  padding-right: 1rem;
+  border-bottom: 1px solid black;
+  margin-left: 1rem;
+}
+.oneLineAboutSelection h2 {
+  font-weight: 400;
+  font-size: 1.6em;
+  margin-bottom: 0.5rem;
+}
+.downloadMenus {
+  width: 100vw;
+
+  display: flex;
+  flex-direction: column;
+}
+.downloadOurMenuTitle {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 1rem;
+}
+.downloadOurMenuTitle h1 {
+  font-weight: 400;
+  font-size: 3em;
+  color: rgb(211, 161, 42);
+}
+.iconAndShopMenu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 15rem;
+  border-bottom: 1px solid black;
+}
+.iconAndShopMenu h1 {
+  font-weight: 400;
+  font-size: 2.8em;
+}
+.menuIcon {
+  font-size: 2em;
+  margin-right: 1rem;
+  color: rgb(211, 161, 42);
+}
+.shopMenus {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  margin-left: 5rem;
+}
+.shopMenus :hover {
+  cursor: pointer;
+}
+.MatosCategorySquaremini {
+  width: 24vw;
+  height: 35vh;
+  background-image: url("../../images/matos.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 0.5%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.CBDCategorySquaremini {
+  width: 24vw;
+  height: 35vh;
+  background-image: url("../../images/cbdPart.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 0.5%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.MixoCategorySquaremini {
+  width: 24vw;
+  height: 35vh;
+  background-image: url("../../images/mixo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 0.5%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.BenFlavourCategorySquaremini {
+  width: 24vw;
+  height: 35vh;
+  background-image: url("../../images/benflavour.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 0.5%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.textButtonLinkmini h1 {
+  color: white;
+  font-weight: 300;
+  font-size: 1.5em;
+  background-color: rgb(0, 0, 0);
+  opacity: 0.95;
+  padding: 2%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-left: 2rem;
+  font-family: "Architects Daughter", cursive;
+}
+.otherMediasPart {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.wrapOfCategories {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.wrapOfCategories :hover {
+  cursor: pointer;
+}
+.eLiquidsCategorySquaremini {
+  width: 24vw;
+  height: 35vh;
+  background-image: url("../../images/liquids.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 0.5%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+@media (max-width: 1400px) {
+  .textButtonLinkmini h1 {
+    font-size: 1.3em;
+  }
+  .shopMenus {
+    margin-left: 4rem;
+  }
+  .menuIcon {
+    font-size: 1.8em;
+  }
+  .iconAndShopMenu h1 {
+    font-size: 2.3em;
+  }
+  .downloadOurMenuTitle h1 {
+    font-size: 2.5em;
+  }
+  .oneLineAboutSelection h2 {
+    font-size: 1em;
+  }
+  .oneLineAboutSelection {
+    margin-bottom: 1rem;
+  }
+  .titleAboutQuality h1 {
+    font-size: 2.3em;
+  }
+  .bandJuices h1 {
+    font-size: 2.7em;
+  }
+  .OneWhy h2 {
+    font-size: 1em;
+  }
+  .whyIsItImportant h1 {
+    font-size: 2.3em;
+  }
+  .whyIsItBetter h1 {
+    font-size: 2.2em;
+  }
+}
+@media (max-width: 1024px) {
+  .textButtonLinkmini h1 {
+    font-size: 1.1em;
+    margin: 0rem;
+  }
+  .shopMenus {
+    margin-left: 3rem;
+  }
+  .menuIcon {
+    font-size: 1.5em;
+  }
+  .iconAndShopMenu h1 {
+    font-size: 1.9em;
+  }
+  .downloadOurMenuTitle h1 {
+    font-size: 2.2em;
+  }
+  .oneLineAboutSelection h2 {
+    font-size: 1.1em;
+  }
+  .OneWhyIcon {
+    font-size: 1.8em;
+  }
+  .titleAboutQuality h1 {
+    font-size: 2.1em;
+  }
+  .OneWhy h2 {
+    font-size: 1.1em;
+  }
+
+  .whyIsItImportant h1 {
+    font-size: 2.1em;
+  }
+  .whyIsItBetter h1 {
+    font-size: 2.1em;
+  }
+}
+@media (max-width: 768px) {
+  .ImageAndTextAboutQuality {
+    margin-top: 0;
+    padding-top: 0;
+  }
+  .textAboutQuality {
+    height: 35vh;
+  }
+
+  .TitleOfOurSelectionOfJuices {
+    height: 35vh;
+  }
+  .imageAboutQuality {
+    height: 35vh;
+  }
+  .textButtonLinkmini h1 {
+    font-size: 0.9em;
+  }
+  .MatosCategorySquaremini {
+    height: 22vh;
+  }
+  .MixoCategorySquaremini {
+    height: 22vh;
+  }
+  .CBDCategorySquaremini {
+    height: 22vh;
+  }
+  .eLiquidsCategorySquaremini {
+    height: 22vh;
+  }
+  .BenFlavourCategorySquaremini {
+    height: 22vh;
+  }
+
+  .otherMediasPart {
+    margin: 0rem;
+  }
+  .shopMenus {
+    margin-left: 2rem;
+  }
+  .menuIcon {
+    font-size: 1.4em;
+  }
+  .iconAndShopMenu {
+    margin-right: 10rem;
+  }
+  .iconAndShopMenu h1 {
+    font-size: 1.7em;
+  }
+  .downloadOurMenuTitle h1 {
+    font-size: 1.9em;
+  }
+  .oneLineAboutSelection h2 {
+    font-size: 0.8em;
+  }
+
+  .titleAboutQuality h1 {
+    font-size: 1.9em;
+  }
+  .OneWhy h2 {
+    font-size: 0.8em;
+  }
+  .whyIsItImportant {
+    height: 40vh;
+    margin-bottom: 0;
+  }
+  .textAboutOurJuices {
+    padding: 0;
+  }
+  .whyIsItImportant h1 {
+    font-size: 1.9em;
+  }
+  .whyIsItBetter {
+    width: 100%;
+    height: 30vh;
+  }
+  .whyIsItBetter h1 {
+    font-size: 1.9em;
+  }
+  .OneWhyIcon {
+    font-size: 1.6em;
+  }
+  .bandJuices h1 {
+    font-size: 2.5em;
+  }
+
+  .extraImage {
+    width: 100%;
+    height: 40vh;
+    background-position: center;
+  }
+
+  .ImageAndTextAboutQuality {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 650px) {
+  .whyIsItBetter {
+    width: 100%;
+    height: 30vh;
+  }
+  .whyIsItImportant {
+    width: 100%;
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+  }
+  .downloadMenus {
+    margin-bottom: 2rem;
+  }
+  .MatosCategorySquaremini {
+    width: 49.5vw;
+    margin-bottom: 1vw;
+  }
+  .MixoCategorySquaremini {
+    width: 49.5vw;
+    margin-bottom: 1vw;
+  }
+  .CBDCategorySquaremini {
+    width: 49.5vw;
+    margin-bottom: 1vw;
+  }
+  .eLiquidsCategorySquaremini {
+    width: 49.5vw;
+    margin-bottom: 1vw;
+  }
+  .BenFlavourCategorySquaremini {
+    width: 49.5vw;
+    margin-bottom: 1vw;
+  }
+  .iconAndShopMenu {
+    margin-right: 5rem;
+  }
+  .menuIcon {
+    font-size: 1.2em;
+  }
+  .iconAndShopMenu h1 {
+    font-size: 1.5em;
+  }
+  .downloadOurMenuTitle h1 {
+    font-size: 1.7em;
+  }
+
+  .imageAboutQuality {
+    width: 100%;
+    height: 40vh;
+  }
+  .textAboutQuality {
+    width: 100%;
+    height: 50vh;
+    margin-right: 3rem;
+  }
+  .textAboutOurJuices {
+    width: 100%;
+    flex-direction: row-reverse;
+    margin: 0;
+  }
+  .extraPart {
+    width: 100%;
+    margin-top: 0;
+  }
+  .extraImage {
+    width: 100%;
+    height: 40vh;
+  }
+  .TitleOfOurSelectionOfJuices {
+    width: 100%;
+  }
+  .OneWhy h2 {
+    font-size: 0.9em;
+  }
+  .whyIsItImportant h1 {
+    font-size: 1.8em;
+  }
+  .whyIsItBetter h1 {
+    font-size: 1.8em;
+  }
+  .titleAboutQuality h1 {
+    font-size: 1.8em;
+  }
+  .TitleOfOurSelectionOfJuices {
+    height: 30vh;
+  }
+  .imageAboutQuality {
+    height: 30vh;
+  }
+  .extraImage {
+    height: 30vh;
+  }
+}
+
+@media (max-width: 500px) {
+  .oneLineAboutSelection h2 {
+    font-size: 0.6em;
+  }
+  .downloadMenus {
+    height: 35vh;
+  }
+  .textAboutQuality {
+    height: 45vh;
+  }
+  .whyIsItImportant {
+    height: 35vh;
+    margin-top: 1rem;
+  }
+  .whyIsItImportant h1 {
+    margin-bottom: 0;
+    font-size: 1.6em;
+  }
+  .whyIsItBetter h1 {
+    margin-bottom: 0;
+    font-size: 1.6em;
+  }
+  .titleAboutQuality h1 {
+    font-size: 1.6em;
+  }
+  .extraImage {
+    height: 25vh;
+  }
+  .downloadMenus {
+    margin-bottom: 5rem;
+  }
+  .textButtonLinkmini h1 {
+    font-size: 1em;
+    margin: 0rem;
+  }
+
+  .bandJuices h1 {
+    font-size: 2.2em;
+    margin-top: 2rem;
+    margin-right: 2rem;
+  }
+  .bandJuices {
+    height: 25vh;
+  }
+}
+@media (max-width: 400px) {
+  .OneWhy h2 {
+    font-size: 0.7em;
+  }
+  .bandJuices h1 {
+    font-size: 2em;
+  }
+  .bandJuices {
+    height: 35vh;
+  }
+}
+@media (max-width: 350px) {
+  .whyIsItImportant h1 {
+    font-size: 1.3em;
+  }
+  .whyIsItBetter h1 {
+    font-size: 1.3em;
+  }
+  .titleAboutQuality h1 {
+    font-size: 1.3em;
+  }
+  .whyIsItImportant {
+    margin-top: 2rem;
+  }
+}

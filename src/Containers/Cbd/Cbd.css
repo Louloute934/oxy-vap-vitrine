@@ -1,0 +1,100 @@
+.CBDPage {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10vh;
+}
+.bandCbd {
+  width: 100vw;
+  height: 40vh;
+  background-image: url("../../images/cbdFirstPart.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-bottom: 2rem;
+}
+.bandCbd h1 {
+  font-family: "Architects Daughter", cursive;
+  color: white;
+  font-size: 3em;
+  width: 100%;
+  box-sizing: border-box;
+}
+.TitleOfOurSelectionOfCbd {
+  background-image: url("../../images/cbdFirstImage.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 50%;
+  height: 40vh;
+}
+.extraCbdPart {
+  width: 100vw;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  align-items: center;
+
+  margin-bottom: 3rem;
+}
+.extraCbdImage {
+  background-image: url("../../images/extraCbd.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 50%;
+  height: 40vh;
+}
+@media (max-width: 1400px) {
+  .bandCbd h1 {
+    font-size: 2.7em;
+  }
+  .bandCbd {
+    background-position: bottom;
+  }
+}
+
+@media (max-width: 1024px) {
+  .bandCbd h1 {
+    font-size: 2.5em;
+  }
+}
+
+@media (max-width: 768px) {
+  .extraCbdImage {
+    width: 100%;
+    height: 40vh;
+    background-position: center;
+    margin-top: 3rem;
+  }
+  .TitleOfOurSelectionOfCbd {
+    height: 35vh;
+  }
+  .bandCbd h1 {
+    font-size: 2.3em;
+  }
+}
+@media (max-width: 650px) {
+  .TitleOfOurSelectionOfCbd {
+    width: 100%;
+  }
+  .bandCbd h1 {
+    font-size: 2em;
+  }
+}
+@media (max-width: 500px) {
+  .bandCbd h1 {
+    font-size: 1.8em;
+  }
+  .bandCbd {
+    height: 25vh;
+  }
+}
+@media (max-width: 400px) {
+  .bandMatos h1 {
+    font-size: 1.6em;
+  }
+}

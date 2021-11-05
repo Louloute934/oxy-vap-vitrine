@@ -1,0 +1,101 @@
+.bandMixo {
+  width: 100vw;
+  height: 45vh;
+  background-image: url("../../images/mixoBand.jpg");
+  background-size: cover;
+  background-color: rgb(204, 126, 1);
+  background-blend-mode: hard-light;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  background-position: center;
+}
+.bandMixo h1 {
+  font-family: "Architects Daughter", cursive;
+  color: black;
+  margin: 2%;
+  font-size: 3em;
+  width: 100%;
+  box-sizing: border-box;
+}
+.TitleOfOurSelectionOfMixo {
+  background-image: url("../../images/mixo2.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 50%;
+  height: 45vh;
+}
+.extraMixoPart {
+  width: 100vw;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.extraMixoImage {
+  background-image: url("../../images/mixo4.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 50%;
+  height: 45vh;
+}
+@media (max-width: 1400px) {
+  .bandMixo h1 {
+    font-size: 2.7em;
+  }
+  .bandMixo {
+    background-position: bottom;
+  }
+}
+@media (max-width: 1024px) {
+  .bandMixo h1 {
+    font-size: 2.4em;
+  }
+}
+@media (max-width: 768px) {
+  .extraMixoImage {
+    width: 100%;
+    height: 40vh;
+    background-position: center;
+    margin-top: 2rem;
+  }
+  .extraCoffeeImage {
+    width: 100%;
+    height: 40vh;
+    background-position: center;
+    margin-top: 1rem;
+  }
+  .bandMixo h1 {
+    font-size: 2.2em;
+  }
+  .TitleOfOurSelectionOfCoffees {
+    height: 35vh;
+  }
+}
+@media (max-width: 650px) {
+  .TitleOfOurSelectionOfMixo {
+    width: 100%;
+    background-position: center;
+    margin-bottom: 1rem;
+  }
+  .bandMixo h1 {
+    font-size: 2em;
+  }
+}
+@media (max-width: 500px) {
+  .bandMixo {
+    height: 25vh;
+  }
+  .bandMixo h1 {
+    font-size: 1.8em;
+  }
+}
+@media (max-width: 400px) {
+  .bandMixo h1 {
+    font-size: 1.6em;
+  }
+}

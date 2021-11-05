@@ -1,1 +1,7 @@
 /* Other rules */
+body {
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  background-color: white;
+  color: black;
+}

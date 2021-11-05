@@ -1,0 +1,108 @@
+.matosPage {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  margin-top: 10vh;
+  flex-direction: column;
+}
+.bandMatos {
+  width: 100vw;
+  height: 40vh;
+  background-image: url("../../images/matosFirstPart.png");
+  background-size: cover;
+  background-color: rgb(204, 126, 1);
+  background-blend-mode: hard-light;
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-bottom: 1rem;
+}
+.bandMatos h1 {
+  font-family: "Architects Daughter", cursive;
+  color: black;
+  font-size: 4em;
+  margin: 1%;
+  padding: 1%;
+}
+.TitleOfOurSelectionOfMatos {
+  background-image: url("../../images/matos1.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 50%;
+  height: 40vh;
+  margin-top: 1rem;
+}
+.extraMatosPart {
+  width: 100vw;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  align-items: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.ExtraImageMatos {
+  background-image: url("../../images/extraMatos.png");
+
+  background-size: cover;
+  width: 50%;
+  height: 40vh;
+}
+@media (max-width: 1400px) {
+  .bandMatos h1 {
+    font-size: 2.7em;
+  }
+  .bandMatos {
+    background-position: bottom;
+  }
+}
+@media (max-width: 1024px) {
+  .bandMatos h1 {
+    font-size: 2.7em;
+  }
+}
+@media (max-width: 768px) {
+  .TitleOfOurSelectionOfMatos {
+    height: 35vh;
+  }
+  .bandMatos h1 {
+    font-size: 2.5em;
+  }
+  .ExtraImageMatos {
+    width: 100%;
+    height: 40vh;
+    background-position: center;
+    margin-top: 3rem;
+  }
+}
+@media (max-width: 650px) {
+  .whyIsItBetter {
+    width: 100%;
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+  }
+  .TitleOfOurSelectionOfMatos {
+    width: 100%;
+  }
+  .bandMatos h1 {
+    font-size: 2.5em;
+  }
+}
+@media (max-width: 500px) {
+  .bandMatos h1 {
+    font-size: 2em;
+  }
+  .bandMatos {
+    height: 25vh;
+  }
+}
+@media (max-width: 400px) {
+  .bandMatos h1 {
+    font-size: 1.8em;
+  }
+}

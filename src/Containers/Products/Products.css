@@ -1,0 +1,156 @@
+.productsPage {
+  width: 100%;
+  height: 100%;
+  display: flex;
+
+  margin-top: 10vh;
+}
+.productCategorieswithSquares {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.productCategorieswithSquares :hover {
+  cursor: pointer;
+}
+.eLiquidsCategorySquare {
+  width: 49.75%;
+  height: 70vh;
+  background-image: url("../../images/liquids.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 0.5%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.MatosCategorySquare {
+  width: 49.75%;
+  height: 70vh;
+  background-image: url("../../images/matos.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 0.5%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.CBDCategorySquare {
+  width: 49.75%;
+  height: 70vh;
+  background-image: url("../../images/cbdPart.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 0.5%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.MixoCategorySquare {
+  width: 49.75%;
+  height: 70vh;
+  background-image: url("../../images/mixo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 0.5%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.BenFlavourCategorySquare {
+  width: 49.75%;
+  height: 70vh;
+  background-image: url("../../images/benflavour.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 0.5%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.qualityCategorySquare {
+  width: 49.75%;
+  height: 70vh;
+  background-image: url("../../images/quality.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 0.5%;
+  border: 1px solid black;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.textButtonLink h1 {
+  color: white;
+  font-weight: 300;
+  font-size: 2.4em;
+
+  background-color: rgb(0, 0, 0);
+  opacity: 0.95;
+  padding: 2%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-left: 2rem;
+  font-family: "Architects Daughter", cursive;
+}
+@media (max-width: 1024px) {
+  .textButtonLink h1 {
+    font-size: 2em;
+  }
+}
+@media (max-width: 800px) {
+  .textButtonLink h1 {
+    font-size: 1.7em;
+  }
+  .eLiquidsCategorySquare {
+    height: 45vh;
+  }
+  .MatosCategorySquare {
+    height: 45vh;
+  }
+  .CBDCategorySquare {
+    height: 45vh;
+  }
+  .BenFlavourCategorySquare {
+    height: 45vh;
+  }
+  .MixoCategorySquare {
+    height: 45vh;
+  }
+}
+@media (max-width: 600px) {
+  .textButtonLink h1 {
+    font-size: 1.5em;
+  }
+  .eLiquidsCategorySquare {
+    width: 100%;
+  }
+  .MatosCategorySquare {
+    width: 100%;
+  }
+  .CBDCategorySquare {
+    width: 100%;
+  }
+  .BenFlavourCategorySquare {
+    width: 100%;
+  }
+  .MixoCategorySquare {
+    width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  .textButtonLink h1 {
+    font-size: 1.3em;
+  }
+}

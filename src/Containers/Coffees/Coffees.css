@@ -1,0 +1,95 @@
+.bandCoffees {
+  width: 100vw;
+  height: 40vh;
+  background-image: url("../../images/coffeeFirstPart.png");
+  background-size: cover;
+  background-color: rgb(204, 126, 1);
+  background-blend-mode: hard-light;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+.bandCoffees h1 {
+  font-family: "Architects Daughter", cursive;
+  color: white;
+  font-size: 3em;
+  margin-left: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+.TitleOfOurSelectionOfCoffees {
+  background-image: url("../../images/ben1.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 50%;
+  height: 45vh;
+}
+.extraCoffeesPart {
+  width: 100vw;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  align-items: center;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+.extraCoffeeImage {
+  background-image: url("../../images/ben2.jpeg");
+  background-position: center;
+  background-size: cover;
+  width: 50%;
+  height: 45vh;
+}
+@media (max-width: 1400px) {
+  .bandCoffees h1 {
+    font-size: 2.7em;
+  }
+  .bandCoffees {
+    background-position: bottom;
+  }
+}
+@media (max-width: 1024px) {
+  .bandCoffees h1 {
+    font-size: 2.4em;
+  }
+}
+@media (max-width: 768px) {
+  .extraCoffeeImage {
+    width: 100%;
+    height: 40vh;
+    background-position: center;
+    margin-top: 1rem;
+  }
+  .bandCoffees h1 {
+    font-size: 2.2em;
+  }
+  .TitleOfOurSelectionOfCoffees {
+    height: 35vh;
+  }
+}
+@media (max-width: 650px) {
+  .TitleOfOurSelectionOfCoffees {
+    width: 100%;
+    background-position: center;
+    margin-bottom: 1rem;
+  }
+  .bandCoffees h1 {
+    font-size: 2em;
+  }
+}
+@media (max-width: 500px) {
+  .bandCoffees {
+    height: 25vh;
+  }
+  .bandCoffees h1 {
+    font-size: 1.8em;
+  }
+}
+@media (max-width: 400px) {
+  .bandCoffees h1 {
+    font-size: 1.6em;
+  }
+}

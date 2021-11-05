@@ -1,0 +1,117 @@
+.headerBar {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  background-color: white;
+  box-sizing: border-box;
+}
+.functionalHeader {
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  top: 0;
+  left: 0;
+}
+.headerLogoDiv {
+  font-family: "Alike", serif;
+  margin-left: 2rem;
+}
+.headerLogoDiv :hover {
+  cursor: pointer;
+}
+.headerMenu {
+  display: flex;
+  flex-direction: row;
+  color: gray;
+}
+.headerMenu h2 {
+  font-weight: 400;
+  margin-right: 2rem;
+}
+.headerMenu :hover {
+  cursor: pointer;
+  color: black;
+}
+.headerMiniMenu {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.headerMiniMenu h2 {
+  font-weight: 400;
+  margin-right: 2rem;
+}
+@media (max-width: 1024px) {
+  .headerMenu h2 {
+    font-size: 1.2em;
+    margin-right: 1.2rem;
+  }
+  .headerLogoDiv {
+    margin-left: 1rem;
+  }
+  .headerLogoDiv h1 {
+    font-size: 1.5em;
+  }
+}
+@media (max-width: 768px) {
+  .headerMenu h2 {
+    font-size: 1em;
+  }
+  .headerMenu {
+    margin-right: 0.4rem;
+  }
+  .headerLogoDiv h1 {
+    font-size: 1.3em;
+  }
+  .headerLogoDiv {
+    margin-left: 0.4rem;
+  }
+}
+@media (max-width: 600px) {
+  .headerMenu h2 {
+    font-size: 0.9em;
+  }
+  .headerMenu {
+    margin-right: 0.4rem;
+  }
+  .headerLogoDiv h1 {
+    font-size: 1em;
+  }
+}
+@media (max-width: 500px) {
+  .headerLogoDiv {
+    display: none;
+  }
+  .headerMenu {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 1rem;
+  }
+}
+@media (max-width: 420px) {
+  .headerMenu {
+    margin-left: 0.4rem;
+  }
+  .headerMenu h2 {
+    font-size: 0.68em;
+  }
+}
+@media (max-width: 340px) {
+  .headerMenu h2 {
+    font-size: 0.5em;
+  }
+}

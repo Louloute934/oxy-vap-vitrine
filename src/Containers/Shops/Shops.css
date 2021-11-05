@@ -1,0 +1,342 @@
+.shopsPage {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-top: 10vh;
+  top: 0;
+  left: 0;
+}
+.oneShopHiddenWithIcon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.oneShopHiddenWithIcon :hover {
+  color: #cc7e01;
+  cursor: pointer;
+}
+.oneShopHiddenWithIcon h2 {
+  font-weight: 400;
+  font-size: 1.8em;
+}
+.firstPartShopsWithPhoto {
+  width: 100vw;
+  height: 90vh;
+  background-image: url("../../images/shopsPresentation.png");
+  background-size: cover;
+  background-position-y: center;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.textOverPhotoForShops {
+  margin-left: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.firstPartOfTitleWithImage {
+  width: 100%;
+
+  line-height: 0.5rem;
+  display: flex;
+  justify-content: flex-start;
+}
+.secondPartOfTitleWithImage {
+  width: 100%;
+  line-height: 0.5rem;
+  display: flex;
+  justify-content: flex-start;
+}
+.thirdPartOfTitleWithImage {
+  width: 100%;
+  line-height: 0.5rem;
+  display: flex;
+  justify-content: flex-start;
+}
+.textOverPhotoForShops h1 {
+  color: black;
+  font-size: 3em;
+  font-weight: 500;
+  font-family: "Architects Daughter", cursive;
+}
+.firstShop {
+  width: 100%;
+  display: flex;
+  margin-top: 1rem;
+}
+.VisiblePart {
+  width: 100%;
+
+  border-bottom: 2px solid black;
+  margin-left: 2rem;
+}
+.iconDown {
+  color: #cc7e01;
+  margin-left: 0.5rem;
+  font-size: 1.6em;
+}
+.VisiblePart h1 {
+  font-weight: 400;
+  font-size: 2em;
+}
+.shopNameAndIcon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.shopIcon {
+  font-size: 2em;
+  font-weight: 400;
+  display: flex;
+  align-items: flex-end;
+  line-height: 0;
+}
+.hiddenPartAboutShop {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 2rem;
+}
+.iconAndTextAboutThisShop {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.iconAndTextAboutThisShop h2 {
+  font-weight: 400;
+}
+.iconAboutShop {
+  font-size: 2em;
+  margin-right: 2rem;
+  color: #cc7e01;
+}
+.infoShop {
+  display: flex;
+  flex-direction: column;
+
+  width: 50vw;
+}
+.productShop {
+  width: 40vw;
+  height: 40vh;
+  background-image: url("../../images/Yerres.jpg");
+  background-position: center;
+  color: white;
+}
+.productShop2 {
+  width: 40vw;
+  height: 40vh;
+  background-image: url("../../images/Draveil.jpg");
+  background-position: center;
+  color: white;
+}
+.productShop3 {
+  width: 40vw;
+  height: 40vh;
+  background-image: url("../../images/Combs.jpg");
+  background-position: center;
+  color: white;
+}
+.fbAndInsta {
+  font-size: 3.3em;
+  color: #cc7e01;
+}
+.socialMediasPart {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.socialMediasPart a {
+  display: flex;
+  justify-content: center;
+  margin-right: 3rem;
+}
+.discoverOurShop {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 1rem;
+}
+.discoverOurShop h2 {
+  font-size: 400;
+}
+@media (max-width: 1200px) {
+  .oneShopHiddenWithIcon h2 {
+    font-weight: 400;
+    font-size: 1.6em;
+  }
+  .iconAndTextAboutThisShop h2 {
+    font-size: 1.3em;
+  }
+  .iconAboutShop {
+    font-size: 1.6em;
+  }
+  .fbAndInsta {
+    font-size: 2.6em;
+  }
+}
+@media (max-width: 1024px) {
+  .oneShopHiddenWithIcon h2 {
+    font-weight: 400;
+    font-size: 1.4em;
+  }
+  .hiddenPartAboutShop {
+    flex-direction: row-reverse;
+  }
+  .infoShop {
+    width: 100%;
+  }
+  .productShop {
+    width: 100%;
+  }
+  .productShop2 {
+    width: 100%;
+  }
+  .productShop3 {
+    width: 100%;
+  }
+  .iconAndTextAboutThisShop h2 {
+    font-size: 1.1em;
+  }
+  .iconAboutShop {
+    font-size: 1.8em;
+  }
+  .fbAndInsta {
+    font-size: 2.8em;
+  }
+  .VisiblePart h1 {
+    font-size: 1.8em;
+  }
+  .firstPartShopsWithPhoto {
+    justify-content: flex-end;
+    background-position: right;
+    height: 60vh;
+  }
+  .textOverPhotoForShops h1 {
+    font-size: 2.5em;
+  }
+  .textOverPhotoForShops {
+    margin-right: 5rem;
+  }
+}
+@media (max-width: 850px) {
+  .oneShopHiddenWithIcon h2 {
+    font-weight: 400;
+    font-size: 1.2em;
+  }
+  .iconAndTextAboutThisShop h2 {
+    font-size: 1.1em;
+  }
+  .iconAboutShop {
+    font-size: 1.6em;
+  }
+  .fbAndInsta {
+    font-size: 2.6em;
+  }
+  .VisiblePart h1 {
+    font-size: 1.7em;
+  }
+  .textOverPhotoForShops h1 {
+    font-size: 2.3em;
+  }
+  .VisiblePart {
+    margin-left: 1rem;
+  }
+}
+@media (max-width: 650px) {
+  .oneShopHiddenWithIcon h2 {
+    font-weight: 400;
+    font-size: 1.2em;
+  }
+  .VisiblePart {
+    margin-left: 0.5rem;
+  }
+  .iconAndTextAboutThisShop h2 {
+    font-size: 1em;
+  }
+  .iconAboutShop {
+    font-size: 1.5em;
+  }
+  .fbAndInsta {
+    font-size: 2.5em;
+  }
+  .VisiblePart h1 {
+    font-size: 1.6em;
+  }
+  .firstPartShopsWithPhoto {
+    justify-content: flex-end;
+    align-items: center;
+    background-position: bottom left;
+    height: 50vh;
+  }
+  .textOverPhotoForShops h1 {
+    font-size: 2.2em;
+  }
+  .textOverPhotoForShops {
+    margin-right: 3%;
+  }
+}
+@media (max-width: 500px) {
+  .oneShopHiddenWithIcon h2 {
+    font-weight: 400;
+    font-size: 1.1em;
+  }
+  .firstPartShopsWithPhoto {
+    background-position: bottom right;
+    height: 40vh;
+  }
+  .productShop {
+    display: none;
+  }
+  .productShop2 {
+    display: none;
+  }
+  .productShop3 {
+    display: none;
+  }
+  .iconAndTextAboutThisShop h2 {
+    font-size: 0.9em;
+  }
+  .iconAboutShop {
+    font-size: 1.4em;
+  }
+  .fbAndInsta {
+    font-size: 2.4em;
+  }
+  .VisiblePart h1 {
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 400px) {
+  .oneShopHiddenWithIcon h2 {
+    font-weight: 400;
+    font-size: 1em;
+  }
+  .VisiblePart h1 {
+    font-size: 1.4em;
+  }
+  .iconAndTextAboutThisShop h2 {
+    font-size: 0.8em;
+  }
+  .iconAboutShop {
+    font-size: 1.3em;
+  }
+  .fbAndInsta {
+    font-size: 2.2em;
+  }
+}
