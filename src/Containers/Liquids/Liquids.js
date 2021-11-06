@@ -30,16 +30,11 @@ const Liquids = () => {
           <h1>Une sélection importante pour VOUS </h1>
           <div className="OneWhy">
             <FontAwesomeIcon className="OneWhyIcon" icon="chevron-right" />
-            <h2>
-              Trouver un liquide qui vous convient est vital dans votre arrêt du
-              tabac.
-            </h2>
+            <h2>Trouver le bon liquide est vital dans votre arrêt du tabac.</h2>
           </div>
           <div className="OneWhy">
             <FontAwesomeIcon className="OneWhyIcon" icon="chevron-right" />
-            <h2>
-              Notre équipe vous accompagne pour trouver votre taux de nicotine.
-            </h2>
+            <h2>Accompagnement pour trouver votre taux de nicotine.</h2>
           </div>
           <div className="OneWhy">
             <FontAwesomeIcon className="OneWhyIcon" icon="chevron-right" />
