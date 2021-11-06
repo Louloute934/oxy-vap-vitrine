@@ -606,12 +606,17 @@
   }
 }
 @media (max-width: 400px) {
-  .extraPart {
+  .textAboutQuality {
+    height: 75vh;
+  }
+  .whyIsItImportant {
+    height: 68vh;
+  }
+
+  .whyIsItBetter {
     height: 65vh;
   }
-  .textAboutQuality {
-    height: 55vh;
-  }
+
   .bandJuices h1 {
     font-size: 2em;
   }
@@ -620,7 +625,7 @@
   }
 }
 @media (max-width: 350px) {
-  .whyIsItImportant h1 {
+  /* .whyIsItImportant h1 {
     font-size: 1.3em;
   }
   .whyIsItBetter h1 {
@@ -631,5 +636,5 @@
   }
   .whyIsItImportant {
     margin-top: 2rem;
-  }
+  } */
 }
