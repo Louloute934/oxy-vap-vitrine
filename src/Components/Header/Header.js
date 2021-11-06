@@ -37,7 +37,7 @@ const Header = ({ isTabletOrMobile }) => {
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
           >
-            Nos Produits
+            Produits
           </motion.h2>
           <motion.h2
             onClick={() => {
@@ -46,7 +46,7 @@ const Header = ({ isTabletOrMobile }) => {
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
           >
-            Les Boutiques
+            Boutiques
           </motion.h2>
           <motion.h2
             onClick={() => {
@@ -64,7 +64,7 @@ const Header = ({ isTabletOrMobile }) => {
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
           >
-            Actus / Réseaux
+            Réseaux
           </motion.h2>
         </motion.div>
       </motion.div>

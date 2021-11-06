@@ -159,7 +159,7 @@ const Home = () => {
               onClick={() => {
                 history.push("/products/matos");
               }}
-              className="buttonOfOneGaranty"
+              className="buttonOfContact"
             >
               <h1>Notre matériel</h1>
             </motion.div>

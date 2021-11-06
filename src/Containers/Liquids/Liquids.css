@@ -45,21 +45,21 @@
   flex-direction: row;
   flex-wrap: wrap-reverse;
   align-items: center;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 .extraImage {
   background-image: url("../../images/extraService.png");
   background-size: cover;
   width: 50%;
-  height: 40vh;
+  height: 55vh;
 }
 .TitleOfOurSelectionOfJuices {
   background-image: url("../../images/distillers.jpg");
   background-position: center;
   background-size: cover;
   width: 50%;
-  height: 50vh;
+  height: 55vh;
   margin-top: 1rem;
 }
 
@@ -77,7 +77,7 @@
 }
 .whyIsItImportant h1 {
   color: rgb(211, 161, 42);
-  font-size: 3em;
+  font-size: 2.8em;
   font-weight: 400;
   margin-left: 1rem;
 }
@@ -94,7 +94,7 @@
 }
 .whyIsItBetter h1 {
   color: rgb(211, 161, 42);
-  font-size: 3em;
+  font-size: 2.8em;
   font-weight: 400;
   margin-left: 1rem;
 }
@@ -131,12 +131,12 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 .imageAboutQuality {
   width: 50%;
-  height: 50vh;
+  height: 55vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -159,7 +159,7 @@
 }
 .titleAboutQuality h1 {
   font-weight: 400;
-  font-size: 3em;
+  font-size: 2.8em;
   color: rgb(211, 161, 42);
   margin-left: 1rem;
 }
@@ -192,7 +192,7 @@
 }
 .downloadOurMenuTitle h1 {
   font-weight: 400;
-  font-size: 3em;
+  font-size: 2.8em;
   color: rgb(211, 161, 42);
 }
 .iconAndShopMenu {
@@ -330,32 +330,28 @@
     font-size: 2.5em;
   }
   .oneLineAboutSelection h2 {
-    font-size: 1em;
+    font-size: 1.4em;
   }
   .oneLineAboutSelection {
     margin-bottom: 1rem;
   }
   .titleAboutQuality h1 {
-    font-size: 2.3em;
+    font-size: 2.6em;
   }
   .bandJuices h1 {
     font-size: 2.7em;
   }
   .OneWhy h2 {
-    font-size: 1em;
+    font-size: 1.4em;
   }
   .whyIsItImportant h1 {
-    font-size: 2.3em;
+    font-size: 2.6em;
   }
   .whyIsItBetter h1 {
-    font-size: 2.2em;
+    font-size: 2.6em;
   }
 }
 @media (max-width: 1024px) {
-  .textButtonLinkmini h1 {
-    font-size: 1.1em;
-    margin: 0rem;
-  }
   .shopMenus {
     margin-left: 3rem;
   }
@@ -369,32 +365,46 @@
     font-size: 2.2em;
   }
   .oneLineAboutSelection h2 {
-    font-size: 1.1em;
+    font-size: 1.3em;
   }
   .OneWhyIcon {
     font-size: 1.8em;
   }
   .titleAboutQuality h1 {
-    font-size: 2.1em;
+    font-size: 2.3em;
   }
   .OneWhy h2 {
-    font-size: 1.1em;
+    font-size: 1.3em;
   }
 
+  .whyIsItImportant h1 {
+    font-size: 2.3em;
+  }
+  .whyIsItBetter h1 {
+    font-size: 2.3em;
+  }
+}
+@media (max-width: 850px) {
   .whyIsItImportant h1 {
     font-size: 2.1em;
   }
   .whyIsItBetter h1 {
     font-size: 2.1em;
   }
+  .titleAboutQuality h1 {
+    font-size: 2.1em;
+  }
+  .OneWhy h2 {
+    font-size: 1.2em;
+  }
+  .oneLineAboutSelection h2 {
+    font-size: 1.2em;
+  }
 }
 @media (max-width: 768px) {
   .ImageAndTextAboutQuality {
     margin-top: 0;
     padding-top: 0;
-  }
-  .textAboutQuality {
-    height: 35vh;
   }
 
   .TitleOfOurSelectionOfJuices {
@@ -403,9 +413,7 @@
   .imageAboutQuality {
     height: 35vh;
   }
-  .textButtonLinkmini h1 {
-    font-size: 0.9em;
-  }
+
   .MatosCategorySquaremini {
     height: 22vh;
   }
@@ -440,26 +448,11 @@
   .downloadOurMenuTitle h1 {
     font-size: 1.9em;
   }
-  .oneLineAboutSelection h2 {
-    font-size: 0.8em;
-  }
 
-  .titleAboutQuality h1 {
-    font-size: 1.9em;
-  }
-  .OneWhy h2 {
-    font-size: 0.8em;
-  }
-  .whyIsItImportant {
-    height: 40vh;
-    margin-bottom: 0;
-  }
   .textAboutOurJuices {
     padding: 0;
   }
-  .whyIsItImportant h1 {
-    font-size: 1.9em;
-  }
+
   .whyIsItBetter {
     width: 100%;
     height: 30vh;
@@ -483,18 +476,37 @@
   .ImageAndTextAboutQuality {
     margin-top: 0;
   }
-}
-
-@media (max-width: 650px) {
   .whyIsItBetter {
     width: 100%;
-    height: 30vh;
+    height: 34vh;
   }
   .whyIsItImportant {
     width: 100%;
     margin-bottom: 2rem;
     margin-right: 2rem;
+    margin-bottom: 0;
+    height: 60vh;
   }
+  .imageAboutQuality {
+    width: 100%;
+    height: 40vh;
+  }
+  .textAboutQuality {
+    width: 100%;
+    height: 55vh;
+    margin-right: 3rem;
+  }
+  .textAboutOurJuices {
+    width: 100%;
+    flex-direction: row-reverse;
+    margin: 0;
+  }
+  .TitleOfOurSelectionOfJuices {
+    width: 100%;
+  }
+}
+
+@media (max-width: 650px) {
   .downloadMenus {
     margin-bottom: 2rem;
   }
@@ -531,20 +543,6 @@
     font-size: 1.7em;
   }
 
-  .imageAboutQuality {
-    width: 100%;
-    height: 40vh;
-  }
-  .textAboutQuality {
-    width: 100%;
-    height: 50vh;
-    margin-right: 3rem;
-  }
-  .textAboutOurJuices {
-    width: 100%;
-    flex-direction: row-reverse;
-    margin: 0;
-  }
   .extraPart {
     width: 100%;
     margin-top: 0;
@@ -553,44 +551,27 @@
     width: 100%;
     height: 40vh;
   }
-  .TitleOfOurSelectionOfJuices {
-    width: 100%;
-  }
-  .OneWhy h2 {
-    font-size: 0.9em;
-  }
-  .whyIsItImportant h1 {
-    font-size: 1.8em;
-  }
-  .whyIsItBetter h1 {
-    font-size: 1.8em;
-  }
-  .titleAboutQuality h1 {
-    font-size: 1.8em;
-  }
-  .TitleOfOurSelectionOfJuices {
-    height: 30vh;
-  }
+
   .imageAboutQuality {
-    height: 30vh;
+    height: 35vh;
   }
   .extraImage {
-    height: 30vh;
+    height: 35vh;
   }
 }
 
 @media (max-width: 500px) {
   .oneLineAboutSelection h2 {
-    font-size: 0.6em;
+    font-size: 1.1em;
   }
   .downloadMenus {
     height: 35vh;
   }
   .textAboutQuality {
-    height: 45vh;
+    height: 50vh;
   }
   .whyIsItImportant {
-    height: 35vh;
+    height: 50vh;
     margin-top: 1rem;
   }
   .whyIsItImportant h1 {
@@ -625,8 +606,11 @@
   }
 }
 @media (max-width: 400px) {
-  .OneWhy h2 {
-    font-size: 0.7em;
+  .extraPart {
+    height: 65vh;
+  }
+  .textAboutQuality {
+    height: 55vh;
   }
   .bandJuices h1 {
     font-size: 2em;

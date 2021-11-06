@@ -133,20 +133,28 @@
   flex-direction: column;
 }
 .realNameOfMember {
-  color: white;
-  margin: 2%;
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #cc7e01;
+  align-items: center;
   box-sizing: border-box;
+  height: 12%;
+  width: 50%;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
 }
 .realNameOfMember h1 {
   font-weight: 500;
   font-size: 2.3em;
-  font-family: "Architects Daughter", cursive;
-  background-color: black;
+  color: white;
+  margin-right: 1rem;
   opacity: 0.9;
   padding: 3%;
+}
+.discoverMemberIcon {
+  color: white;
+  font-size: 1.2em;
 }
 @media (max-width: 1400px) {
   .firstPartOfTeamPresentation h1 {
@@ -172,7 +180,7 @@
 }
 @media (max-width: 850px) {
   .realNameOfMember h1 {
-    font-size: 1.6em;
+    font-size: 1.8em;
   }
   .firstPartOfTeamPresentation h1 {
     font-size: 2em;
@@ -190,7 +198,7 @@
 
 @media (max-width: 650px) {
   .realNameOfMember h1 {
-    font-size: 1.4em;
+    font-size: 1.7em;
   }
   .firstPartOfTeamPresentation h1 {
     font-size: 1.6em;
@@ -216,11 +224,9 @@
 }
 @media (max-width: 500px) {
   .realNameOfMember h1 {
-    font-size: 1.2em;
+    font-size: 1.5em;
   }
-  .firstPartOfTeamPresentation h1 {
-    font-size: 1.4em;
-  }
+
   .textOfOneMember h1 {
     font-size: 1em;
   }
@@ -231,7 +237,7 @@
     font-size: 0.6em;
   }
   .textAboutOneMember {
-    font-size: 0.8em;
+    font-size: 0.9em;
   }
   .blockOfTeamPhotos {
     height: 100vh;

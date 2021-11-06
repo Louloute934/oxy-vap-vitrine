@@ -13,17 +13,13 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  align-items: center;
   text-align: center;
 }
 .oneShopHiddenWithIcon :hover {
   color: #cc7e01;
   cursor: pointer;
 }
-.oneShopHiddenWithIcon h2 {
-  font-weight: 400;
-  font-size: 1.8em;
-}
+
 .firstPartShopsWithPhoto {
   width: 100vw;
   height: 90vh;
@@ -64,7 +60,7 @@
 }
 .textOverPhotoForShops h1 {
   color: black;
-  font-size: 3em;
+  font-size: 3.5em;
   font-weight: 500;
   font-family: "Architects Daughter", cursive;
 }
@@ -73,6 +69,7 @@
   display: flex;
   margin-top: 1rem;
 }
+
 .VisiblePart {
   width: 100%;
 
@@ -86,6 +83,9 @@
 }
 .VisiblePart h1 {
   font-weight: 400;
+  font-size: 2.5em;
+}
+.VisiblePart h2 {
   font-size: 2em;
 }
 .shopNameAndIcon {
@@ -171,13 +171,14 @@
   align-items: center;
   margin-right: 1rem;
 }
-.discoverOurShop h2 {
-  font-size: 400;
+
+.YourShop h2 {
+  font-size: 2em;
+  font-weight: 400;
 }
 @media (max-width: 1200px) {
   .oneShopHiddenWithIcon h2 {
     font-weight: 400;
-    font-size: 1.6em;
   }
   .iconAndTextAboutThisShop h2 {
     font-size: 1.3em;
@@ -190,10 +191,6 @@
   }
 }
 @media (max-width: 1024px) {
-  .oneShopHiddenWithIcon h2 {
-    font-weight: 400;
-    font-size: 1.4em;
-  }
   .hiddenPartAboutShop {
     flex-direction: row-reverse;
   }
@@ -210,7 +207,7 @@
     width: 100%;
   }
   .iconAndTextAboutThisShop h2 {
-    font-size: 1.1em;
+    font-size: 1.5em;
   }
   .iconAboutShop {
     font-size: 1.8em;
@@ -218,28 +215,22 @@
   .fbAndInsta {
     font-size: 2.8em;
   }
-  .VisiblePart h1 {
-    font-size: 1.8em;
-  }
+
   .firstPartShopsWithPhoto {
     justify-content: flex-end;
     background-position: right;
     height: 60vh;
   }
   .textOverPhotoForShops h1 {
-    font-size: 2.5em;
+    font-size: 3em;
   }
   .textOverPhotoForShops {
     margin-right: 5rem;
   }
 }
 @media (max-width: 850px) {
-  .oneShopHiddenWithIcon h2 {
-    font-weight: 400;
-    font-size: 1.2em;
-  }
   .iconAndTextAboutThisShop h2 {
-    font-size: 1.1em;
+    font-size: 1.4em;
   }
   .iconAboutShop {
     font-size: 1.6em;
@@ -247,9 +238,7 @@
   .fbAndInsta {
     font-size: 2.6em;
   }
-  .VisiblePart h1 {
-    font-size: 1.7em;
-  }
+
   .textOverPhotoForShops h1 {
     font-size: 2.3em;
   }
@@ -258,15 +247,11 @@
   }
 }
 @media (max-width: 650px) {
-  .oneShopHiddenWithIcon h2 {
-    font-weight: 400;
-    font-size: 1.2em;
-  }
   .VisiblePart {
     margin-left: 0.5rem;
   }
   .iconAndTextAboutThisShop h2 {
-    font-size: 1em;
+    font-size: 1.3em;
   }
   .iconAboutShop {
     font-size: 1.5em;
@@ -275,7 +260,7 @@
     font-size: 2.5em;
   }
   .VisiblePart h1 {
-    font-size: 1.6em;
+    font-size: 2.3em;
   }
   .firstPartShopsWithPhoto {
     justify-content: flex-end;
@@ -291,9 +276,12 @@
   }
 }
 @media (max-width: 500px) {
+  .YourShop h2 {
+    font-size: 1.8em;
+  }
   .oneShopHiddenWithIcon h2 {
     font-weight: 400;
-    font-size: 1.1em;
+    font-size: 1.4em;
   }
   .firstPartShopsWithPhoto {
     background-position: bottom right;
@@ -309,7 +297,7 @@
     display: none;
   }
   .iconAndTextAboutThisShop h2 {
-    font-size: 0.9em;
+    font-size: 1.2em;
   }
   .iconAboutShop {
     font-size: 1.4em;
@@ -317,21 +305,14 @@
   .fbAndInsta {
     font-size: 2.4em;
   }
-  .VisiblePart h1 {
-    font-size: 1.5em;
-  }
 }
 
 @media (max-width: 400px) {
-  .oneShopHiddenWithIcon h2 {
-    font-weight: 400;
-    font-size: 1em;
-  }
   .VisiblePart h1 {
-    font-size: 1.4em;
+    font-size: 2em;
   }
   .iconAndTextAboutThisShop h2 {
-    font-size: 0.8em;
+    font-size: 1em;
   }
   .iconAboutShop {
     font-size: 1.3em;

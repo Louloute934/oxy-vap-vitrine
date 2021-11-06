@@ -136,19 +136,18 @@ const Team = () => {
           hover={hover}
           parent={parent}
           Background={Cassio}
-          realName="Cassiopée"
+          realName="Cassio"
           backgroundPosition="right"
           bgc="#cc7e01"
           titleColor="white"
           textColor="black"
           name="Cassiopée A.K.A Cassio"
-          killerSkill="Vous trouver le Setup parfait en apprennant à vous connaître"
-          profile="Vapoteuse avec nous depuis 2 ans , et dans l'équipe depuis
-          Septembre 2021 pour 1 an d'apprentissage !"
-          bestKiff="La Vape fait partie de son quotidien et elle est toujours à la
-          recherche du MEILLEUR Conseil à donner!"
+          killerSkill="Vous trouver le Setup parfait en apprennant à vous connaître."
+          profile="Vapoteuse avec nous depuis 2 ans , dans l'équipe depuis
+          Septembre 2021."
+          bestKiff="La recherche du MEILLEUR Conseil à donner!"
           setUp="DRAG MAX, COCO NANAS et FREEZE MELON"
-          hobbies="Crossfit, Photo et Cinéphile sur les bords"
+          hobbies="Crossfit, Photo et Cinéphile sur les bords."
         />
 
         <Onemember
@@ -165,11 +164,11 @@ const Team = () => {
           titleColor="#cc7e01"
           textColor="white"
           name="Enzo A.K.A Zozo"
-          killerSkill="Être à l'écoute, trouver le bon matos ou le bon juice! "
-          profile="Septembre 2021 pour 2 ans d'apprentissage !"
-          bestKiff="Grand fan du monde de la vape, il est comme un poisson dans l'eau ! "
-          setUp="Tout les matos faits main, il adore, le tout avec un liquide différent chaque jour"
-          hobbies="La Vape pour changer!"
+          killerSkill="Être à l'écoute, trouver le bon matos ou le bon juice!"
+          profile="Septembre 2021 pour 2 ans d'apprentissage."
+          bestKiff="Grand fan du monde de la vape, il est comme un poisson dans l'eau."
+          setUp="Tout les matos faits main! Et un liquide différent chaque jour"
+          hobbies="La Vape pour changer."
         />
 
         <Onemember
@@ -186,11 +185,11 @@ const Team = () => {
           titleColor="#cc7e01"
           textColor="black"
           name="Geoffrey ou Geo"
-          killerSkill="un cœur grand ouvert qui sera toujours prêt à vous écouter . "
-          profile="Vapoteur invétéré depuis 7ans, et dans l'équipe depuis avril 2021 . "
-          bestKiff="Échanger avec ses clients, les suivre et avoir des retours positifs ."
-          setUp="Une Drag X et du Pinkman !"
-          hobbies="Une addiction aux casquettes, baskets et grand fan de bonne musique !"
+          killerSkill="Un grand coeur toujours prêt à vous écouter!"
+          profile="Vapoteur depuis 7ans, dans l'équipe depuis avril 2021."
+          bestKiff="Échanger avec ses clients, les accompagner et avoir des retours positifs."
+          setUp="Une Drag X et du Pinkman"
+          hobbies="Casquettes, baskets et grand fan de musique."
         />
 
         <Onemember
@@ -206,11 +205,11 @@ const Team = () => {
           titleColor="#cc7e01"
           textColor="black"
           name="Allan Alias Le Testeur"
-          killerSkill="Tester des liquides et découvrir toujours plus de saveurs !"
-          profile="Vapoteur et fidèle à OXYVAP depuis 7 ans, il rejoint l'équipe en septembre 2020 . "
-          bestKiff="Retrouver une équipe et des clients géniaux pleins de belles attentions, se rendre utile ! "
+          killerSkill="Tester des liquides et découvrir toujours plus de saveurs!"
+          profile="Client OXYVAP depuis 7 ans, dans l'équipe depuis septembre 2020. "
+          bestKiff="Retrouver une équipe et des clients géniaux!"
           setUp="DotSquonk et l'Hypnose"
-          hobbies="Nager, l'art, le cinéma et la pop-culture ! "
+          hobbies="Nager, l'art, le cinéma et la pop-culture."
         />
 
         <Onemember
@@ -226,11 +225,11 @@ const Team = () => {
           titleColor="#cc7e01"
           textColor="white"
           name="Anthony alias Bombar"
-          killerSkill=" Le rangement militaire, la photographie et les plus beaux setups ! "
-          profile="Vape depuis 4 ans, chez nous depuis 2018, ancien client de la boutique de Yerres, une belle rencontre ! "
-          bestKiff="Echanger avec vous, débutants et experts sur la vape qui le passionne et vous trouvez les toutes dernières nouveautés sorties avant tout le monde . "
-          setUp="Un Matos par jour, sa collection étant tellement grande avec un bon gourmand."
-          hobbies="Insta avec des bons #Vapshootings et le bon son . "
+          killerSkill=" Fou de photographie des plus beaux setups."
+          profile="Chez nous depuis 2018,  une superbe rencontre!"
+          bestKiff="Echanger avec vous et vous trouvez les toutes dernières nouveautés sorties avant tout le monde!"
+          setUp="Un Matos par jour, avec un bon gourmand"
+          hobbies="Insta avec des #Vapshootings et le Rap."
         />
 
         <Onemember
@@ -247,11 +246,11 @@ const Team = () => {
           titleColor="white"
           textColor="black"
           name="Antonin ou Anto le bricolo"
-          killerSkill=" Le scotch, la patafix et les élastiques . Réparation en tout genre ! "
-          profile="Depuis 2015, comme Obélix, la vape il est tombé dedans quand il était petit . "
-          bestKiff="Vous faire tester des milliers de combinaisons au mixologue accompagné d'un petit café de Ben Flavours !"
-          setUp="Un bon vieux Nautilus avec du Bruce ou de La Chose. "
-          hobbies="Vaper sur tout et n'importe quoi et kiffer ça ! "
+          killerSkill=" Le scotch, la patafix et les élastiques. Réparations en tous genres. "
+          profile="Depuis 2015, il est tombé dedans quand il était petit! "
+          bestKiff="Vous faire tester des milliers de combinaisons au Mixologue!"
+          setUp="Un Nautilus avec du Bruce ou de La Chose. "
+          hobbies="Vaper sur tout et n'importe quoi et kiffer ça! "
         />
 
         <Onemember
@@ -268,11 +267,11 @@ const Team = () => {
           titleColor="#cc7e01"
           textColor="black"
           name="Debo ou La Fondatrice"
-          killerSkill="Décorer les boutiques encore mieux que chez elle , un vrai talent caché ! "
-          profile="Créatrice d'Oxy Vap en 2014 et toujours aussi passionnée "
-          bestKiff="Bosser avec son équipe et apprécier chaque récit de réussite dans le sevrage tabagique !"
-          setUp="Un kit Tarot Nano et du red Moon. "
-          hobbies="Courrir , manger heathly et dirty dancing !  "
+          killerSkill="Décorer les boutiques encore mieux que chez elle ,un vrai talent caché!"
+          profile="Créatrice d'Oxy Vap en 2014 et toujours aussi passionnée!"
+          bestKiff="Bosser avec son équipe et apprécier chaque récit de réussite!"
+          setUp="Un kit Tarot Nano et du red Moon"
+          hobbies="Courrir , manger heathly et dirty dancing!"
         />
       </div>
       <div className="firstPartOfTeamPresentation">

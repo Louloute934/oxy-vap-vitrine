@@ -56,7 +56,9 @@ const Shops = () => {
           <div className="oneShopHiddenWithIcon">
             <h1>Yerres</h1>
             <div className="discoverOurShop">
-              <h2>Votre boutique</h2>
+              <div className="YourShop">
+                <h2>Votre boutique</h2>
+              </div>
               {hover1 ? (
                 <FontAwesomeIcon className="iconDown" icon="times" />
               ) : (
@@ -128,7 +130,10 @@ const Shops = () => {
           <div className="oneShopHiddenWithIcon">
             <h1>Draveil</h1>
             <div className="discoverOurShop">
-              <h2>Votre boutique</h2>
+              <div className="YourShop">
+                <h2>Votre boutique</h2>
+              </div>
+
               {hover2 ? (
                 <FontAwesomeIcon className="iconDown" icon="times" />
               ) : (
@@ -199,7 +204,9 @@ const Shops = () => {
           <div className="oneShopHiddenWithIcon">
             <h1>Combs-La-Ville</h1>
             <div className="discoverOurShop">
-              <h2>Votre boutique</h2>
+              <div className="YourShop">
+                <h2>Votre boutique</h2>
+              </div>
               {hover3 ? (
                 <FontAwesomeIcon className="iconDown" icon="times" />
               ) : (

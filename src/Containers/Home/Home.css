@@ -36,7 +36,7 @@
 
 .titleOfOneGaranty h1 {
   font-weight: 400;
-  font-size: 2em;
+  font-size: 3em;
 }
 .titleOfOneGaranty {
   margin-left: 1rem;
@@ -78,7 +78,7 @@
   align-items: center;
 }
 .oneShop h1 {
-  font-size: 2em;
+  font-size: 3em;
 }
 .iconStore {
   font-size: 1.8em;
@@ -125,7 +125,7 @@
   justify-content: flex-start;
 }
 .teamHead h1 {
-  font-size: 2em;
+  font-size: 2.4em;
   margin-left: 0.5rem;
   color: rgb(211, 161, 42);
   font-weight: 400;
@@ -143,14 +143,15 @@
   box-sizing: border-box;
 }
 .listOfGaranties h2 {
-  font-size: 1.4em;
-  font-weight: 400;
+  font-size: 1.8em;
+  font-weight: 300;
   margin-left: 1rem;
 }
 .listOfGaranties {
   width: 100%;
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
   align-items: flex-start;
 }
 .oneGarantyOfList {
@@ -189,26 +190,23 @@
   width: 30vw;
   height: 25vh;
   display: flex;
-
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
   margin: 0;
-  text-align: center;
   border: 1px solid black;
-
   flex-direction: column;
   opacity: 0.9;
   padding: 2%;
   box-sizing: border-box;
 }
 .juicesOneGaranty h1 {
-  font-size: 1.8em;
+  font-size: 2em;
   color: rgb(211, 161, 42);
   line-height: 0;
   font-weight: 400;
 }
 .juicesOneGaranty h2 {
-  font-weight: 400;
+  font-weight: 300;
   line-height: 1em;
   font-size: 1.2em;
 }
@@ -284,47 +282,53 @@
   margin-left: 1rem;
   margin-bottom: 1rem;
 }
-@media (max-width: 1024px) {
-  .juiceImage {
-    height: 60vh;
+@media (max-width: 1400px) {
+  .oneShop h1 {
+    font-size: 2.5em;
   }
+  .titleOfOneGaranty h1 {
+    font-size: 2.5em;
+  }
+  .firstPartHomeWithImage {
+    height: 80vh;
+    background-position: top right;
+  }
+  .listOfGaranties h2 {
+    font-size: 1.7em;
+  }
+}
+@media (max-width: 1024px) {
   .firstPartHomeWithImage {
     height: 60vh;
     background-position: top right;
   }
-  .buttonOfContact h1 {
+  .juiceImage {
+    height: 60vh;
+  }
+
+  .juicesOneGaranty h1 {
     font-size: 1.8em;
   }
-  .juicesOneGaranty h1 {
-    font-size: 1.5em;
-  }
   .juicesOneGaranty h2 {
-    font-weight: 400;
-    line-height: 1em;
-    font-size: 1em;
+    font-size: 1.1em;
   }
   .titleOfOneGaranty {
     margin-left: 3rem;
   }
-  .titleOfOneGaranty h1 {
-    font-size: 1.8em;
-  }
-  .oneShop h1 {
-    font-size: 1.8em;
-  }
+
   .iconStore {
     font-size: 1.2em;
     margin-right: 1rem;
   }
 
   .teamHead h1 {
-    font-size: 1.7em;
+    font-size: 2em;
   }
   .buttonOfOneGaranty h1 {
     font-size: 1.7em;
   }
   .listOfGaranties h2 {
-    font-size: 1em;
+    font-size: 1.5em;
   }
 }
 @media (max-width: 768px) {
@@ -334,49 +338,48 @@
   .juiceImage {
     height: 50vh;
   }
-  .buttonOfContact h1 {
-    font-size: 1.7em;
-  }
+
   .juicesOneGaranty {
     padding: 0;
     height: 15vh;
   }
   .juicesOneGaranty h1 {
-    font-size: 1.3em;
+    font-size: 1.7em;
   }
   .juicesOneGaranty h2 {
-    font-size: 0.8em;
+    font-size: 1em;
   }
   .titleOfOneGaranty h1 {
-    font-size: 1.8em;
+    font-size: 2.2em;
   }
   .oneShop h1 {
-    font-size: 1.8em;
+    font-size: 2.2em;
   }
   .iconStore {
     font-size: 1.2em;
     margin-right: 1rem;
   }
   .teamHead h1 {
-    font-size: 1.8em;
+    font-size: 2em;
   }
   .buttonOfOneGaranty h1 {
     font-size: 1.8em;
   }
   .listOfGaranties h2 {
-    font-size: 1em;
+    font-size: 1.4em;
   }
 }
 @media (max-width: 650px) {
+  .juicesOneGaranty {
+    border: none;
+  }
   .juicesOneGaranty h1 {
     font-size: 1.6em;
   }
   .oneShop h1 {
     font-size: 1.6em;
   }
-  .teamHead h1 {
-    font-size: 1.6em;
-  }
+
   .buttonOfOneGaranty h1 {
     font-size: 1.4em;
   }
@@ -431,13 +434,7 @@
   .juiceImage {
     height: 35vh;
   }
-  .juicesOneGaranty {
-    border: none;
-  }
 
-  .listOfGaranties h2 {
-    font-size: 0.8em;
-  }
   .buttonOfOneGaranty h1 {
     font-size: 1.5em;
   }
@@ -445,16 +442,7 @@
   .juiceGaranties {
     margin-top: 1rem;
   }
-  .buttonOfContact h1 {
-    font-size: 1.6em;
-  }
 
-  .juicesOneGaranty h1 {
-    font-size: 1.4em;
-  }
-  .juicesOneGaranty h2 {
-    font-size: 0.6em;
-  }
   .our3shops {
     margin-left: 1rem;
   }
@@ -467,12 +455,7 @@
     justify-content: flex-start;
     margin: 1rem;
   }
-  .titleOfOneGaranty h1 {
-    font-size: 1.4em;
-  }
-  .oneShop h1 {
-    font-size: 1.3em;
-  }
+
   .iconStore {
     font-size: 1.6em;
     margin-right: 1rem;
@@ -482,6 +465,9 @@
   }
 }
 @media (max-width: 500px) {
+  .titleOfOneGaranty h1 {
+    font-size: 2em;
+  }
   .communityPicture {
     height: 30vh;
   }
@@ -499,62 +485,45 @@
     background-position: top right;
   }
   .juicesOneGaranty h1 {
-    font-size: 1.2em;
+    font-size: 1.5em;
   }
   .juicesOneGaranty h2 {
-    font-size: 0.7em;
-  }
-  .buttonOfContact h1 {
-    font-size: 1.5em;
+    font-size: 0.9em;
   }
 
   .juicesOneGaranty {
     height: 20vh;
   }
 
-  .teamHead h1 {
-    font-size: 1.5em;
-  }
-
-  .oneShop h1 {
-    font-size: 1.3em;
-  }
   .iconStore {
     font-size: 1.3em;
     margin-right: 1rem;
   }
 }
 @media (max-width: 400px) {
+  .listOfGaranties h2 {
+    font-size: 1.4em;
+  }
   .firstPartHomeWithImage {
     height: 30vh;
     background-position: top right;
   }
   .juicesOneGaranty h1 {
-    font-size: 1em;
+    font-size: 1.5em;
   }
   .juicesOneGaranty h2 {
-    font-weight: 400;
-    line-height: 1em;
-    font-size: 0.7em;
+    font-size: 0.9em;
   }
   .buttonOfContact h1 {
-    font-size: 1em;
+    font-size: 1.5em;
   }
   .teamHead h1 {
-    font-size: 1.3em;
+    font-size: 1.8em;
   }
   .buttonOfOneGaranty h1 {
     font-size: 1.3em;
   }
-  .listOfGaranties h2 {
-    font-size: 0.8em;
-  }
-  .titleOfOneGaranty h1 {
-    font-size: 1.4em;
-  }
-  .oneShop h1 {
-    font-size: 1.1em;
-  }
+
   .iconStore {
     font-size: 1.2em;
     margin-right: 1rem;

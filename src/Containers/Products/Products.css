@@ -110,9 +110,6 @@
   }
 }
 @media (max-width: 800px) {
-  .textButtonLink h1 {
-    font-size: 1.7em;
-  }
   .eLiquidsCategorySquare {
     height: 45vh;
   }
@@ -129,9 +126,9 @@
     height: 45vh;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 650px) {
   .textButtonLink h1 {
-    font-size: 1.5em;
+    font-size: 1.8em;
   }
   .eLiquidsCategorySquare {
     width: 100%;
@@ -147,10 +144,5 @@
   }
   .MixoCategorySquare {
     width: 100%;
-  }
-}
-@media (max-width: 500px) {
-  .textButtonLink h1 {
-    font-size: 1.3em;
   }
 }

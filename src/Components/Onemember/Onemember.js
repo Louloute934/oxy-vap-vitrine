@@ -50,6 +50,7 @@ const Onemember = ({
       {!hover && (
         <motion.div variants={children} className="realNameOfMember">
           <h1>{realName}</h1>
+          <FontAwesomeIcon className="discoverMemberIcon" icon="chevron-down" />
         </motion.div>
       )}
 
