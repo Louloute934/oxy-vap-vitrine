@@ -74,30 +74,41 @@ const Liquids = () => {
           <h1>Téléchargez notre carte </h1>
         </div>
         <div className="shopMenus">
-          <motion.div
+          <motion.a
+            href="https://drive.google.com/file/d/1eLK0eV4igOgIK8KOoGNS1-cERgxMZnH8/view"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
             className="iconAndShopMenu"
+            rel="noreferrer"
+            target="_blank"
           >
             <FontAwesomeIcon className="menuIcon" icon="book-open" />
+
             <h1>Yerres</h1>
-          </motion.div>
-          <motion.div
+          </motion.a>
+
+          <motion.a
+            href="https://drive.google.com/file/d/1JF17-a3GIlRpHTIVkrCITgVrf8urZ-AH/view"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
             className="iconAndShopMenu"
+            rel="noreferrer"
+            target="_blank"
           >
             <FontAwesomeIcon className="menuIcon" icon="book-open" />
             <h1>Draveil</h1>
-          </motion.div>
-          <motion.div
+          </motion.a>
+          <motion.a
+            href="https://drive.google.com/file/d/1Ywm45pfEqA2VESg20nzXqQNbMNcM_mSL/view"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
             className="iconAndShopMenu"
+            rel="noreferrer"
+            target="_blank"
           >
             <FontAwesomeIcon className="menuIcon" icon="book-open" />
             <h1>Combs</h1>
-          </motion.div>
+          </motion.a>
         </div>
       </div>
       <div className="extraPart">

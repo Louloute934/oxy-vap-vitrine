@@ -201,6 +201,8 @@
   align-items: center;
   margin-right: 15rem;
   border-bottom: 1px solid black;
+  text-decoration: none;
+  color: black;
 }
 .iconAndShopMenu h1 {
   font-weight: 400;
