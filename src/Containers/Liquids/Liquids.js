@@ -12,6 +12,9 @@ import { motion } from "framer-motion";
 
 //images
 import image2 from "../../images/tireboul.jpg";
+import pdf from "../../images/listingYerres.pdf";
+import pdf1 from "../../images/listingDraveil.pdf";
+import pdf2 from "../../images/listingCombs.pdf";
 
 const Liquids = () => {
   useEffect(() => {
@@ -75,12 +78,13 @@ const Liquids = () => {
         </div>
         <div className="shopMenus">
           <motion.a
-            href="https://drive.google.com/file/d/1eLK0eV4igOgIK8KOoGNS1-cERgxMZnH8/view"
+            href={pdf}
+            target="_blank"
+            width="100%"
+            height="100%"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
             className="iconAndShopMenu"
-            rel="noreferrer"
-            target="_blank"
           >
             <FontAwesomeIcon className="menuIcon" icon="book-open" />
 
@@ -88,7 +92,7 @@ const Liquids = () => {
           </motion.a>
 
           <motion.a
-            href="https://drive.google.com/file/d/1JF17-a3GIlRpHTIVkrCITgVrf8urZ-AH/view"
+            href={pdf1}
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
             className="iconAndShopMenu"
@@ -99,7 +103,7 @@ const Liquids = () => {
             <h1>Draveil</h1>
           </motion.a>
           <motion.a
-            href="https://drive.google.com/file/d/1Ywm45pfEqA2VESg20nzXqQNbMNcM_mSL/view"
+            href={pdf2}
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
             className="iconAndShopMenu"
